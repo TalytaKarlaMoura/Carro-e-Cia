@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.topo {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    border-bottom: 1px solid #d5960054;
+    text-align: center;
+    color: rgb(233, 233, 24);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.topo a {
+    color: rgb(233, 233, 24);
+    padding: 5px;
+}
+.banner img{
+    width: 100%;
+}
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% - 400px);
+    margin:  25px 200px;
+}
+.sections img {
+    width: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sections p {
+    text-align: justify;
+    word-wrap: break-word;
+    line-height: 25px;
+}
+.sections span {
+    color: orange;
+}
+.sections .rodape {
+    background-color: #000;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 2px;
+}
+.sections p a {
+    color: orange;
+}
+
